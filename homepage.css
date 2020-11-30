@@ -1,52 +1,69 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-body {
-    background-color: #dcf1dc;
-}
-.title {
-    position: relative;
-    margin: 0 auto;
-    width: 720px;
-}
-.title img {
-    width: 100%;
-} 
-.title h1 {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    color: red;
-    font-size: 200%;
-}
-P.blocktext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-}
-.Paragraph hr{
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-}
-.Paragraph p{
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-    color: red;
-}
+<!DOCTYPE html>
+<html lang="ja">
+    
 
-a:link {
-    color:#0000ff;
-}
-a:visited {
-    color:#00ccff;
-}
-a:hover {
-    color:#ffffff; 
-    background:#0000cc;
-}
-a:active {
-    color:#ffff00;
-}
+ <head>
+  <meta charset="utf-8">
+  <title>TSET</title>
+  <link rel="stylesheet" href="file:///C:/Users/chiba/Documents/Github/HOMEPAGE/homepage.css">
+ </head>
+
+ <body>
+ 
+<div class="title">
+ <img src="file:///C:/Users/chiba/Documents/Github/HOMEPAGE/image/tyoukaizann.jpeg"　width="720" height="240" alt="　">
+ <!-- https://seyogi.github.io/home/image/komedawara_3.png -->
+ <h1>HOMEPAGE</h1>
+</div>
+
+ <hr>
+ <p class="blocktext">HTMLのTESTページです</p>
+ <br><br>
+
+ <div class=" Paragraph">
+    <p>ABout Me</p>
+    <hr>
+ </div>
+ <p class="blocktext">
+ 音楽ゲームを嗜む情報系(弱い)高校生です。
+ <br><br>
+ よく遊ぶ<br>
+    アケ  → SDVX / CHUNITHM / 音撃 <br>
+   スマホ → Arcaea / Dynamix <br><br>
+ たまに遊ぶ<br>
+    アケ  → jubeat / maimai / DDR <br>
+   スマホ → Lanota<br><br>
+ そんなにやらない<br>
+   アケ  → GC / 太達 <br>
+  スマホ → Deemo /cytus(1,2) / etc...<br>
+ <br><br>
+</p>
+ 
+<div class=" Paragraph">
+    <p>Link</p>
+    <hr>
+</div>
+<p class="blocktext">
+ Twitter : 
+ <a href="https://twitter.com/syg_74" target="_blank">
+ @syg_74
+</a><br>
+ Youtube : 
+ <a href="https://www.youtube.com/channel/UC4HgyRgl5mOy7QXtOnm-pzQ" target="_blank">
+ せよぎ
+</a><br>
+ Github : 
+ <a href="https://github.com/seyogi" target="_blank">
+ seyogi
+ </a><br>
+ <p>
+
+ <br><br>
+ <div class="black">
+ Copyright © 2020 Seyogi All Rights Reserved.
+</div>
+
+ </body>
+
+</html>
+
