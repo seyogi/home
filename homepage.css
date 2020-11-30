@@ -1,13 +1,45 @@
-h1 {
-    color: red;
-    font-size: 200%;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 body {
     background-color: #dcf1dc;
 }
-.red{
+.title {
+    position: relative;
+    margin: 0 auto;
+    width: 720px;
+}
+.title img {
+    width: 100%;
+} 
+.title h1 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: red;
+    font-size: 200%;
+}
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+.Paragraph hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+.Paragraph p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
     color: red;
 }
+
+
+
+
 a:link {
     color:#0000ff;
 }
