@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-size: 200%;
+}
+body {
+    background-color: #dcf1dc;
+}
+.red{
+    color: red;
+}
+a:link {
+    color:#0000ff;
+}
+a:visited {
+    color:#00ccff;
+}
+a:hover {
+    color:#ffffff; 
+    background:#0000cc;
+}
+a:active {
+    color:#ffff00;
+}
