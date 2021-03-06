@@ -44,29 +44,33 @@ P.lefttext {
     width: 700px;
 }
 
-.container {
-    width: 1000px; /*必要な幅に設定*/
-    margin: auto; /*ブラウザ中央に配置*/
-}
-.container:after { /*clearfix設定*/
-    content:"";
-    display:block;
-    clear:both;
-}
+
 @media screen and (max-width: 979px){
+    .container {
+        width: 100%; 
+    }
     .center_wrap {
-        width: 720px;
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .right_wrap {
-        width: 230px; 
-        position: relative;
+        width: 99%;
         top: 20px;
         margin-left: auto;
         margin-right: auto;
     }
 }
-
 @media screen and (min-width: 980px){
+    .container {
+        width: 1000px; /*必要な幅に設定*/
+        margin: auto; /*ブラウザ中央に配置*/
+    }
+    .container:after { /*clearfix設定*/
+        content:"";
+        display:block;
+        clear:both;
+    }
     .center_wrap {
         width: 720px;
         float: left; /*左にフロート配置*/
@@ -81,7 +85,6 @@ P.lefttext {
         top: 20px;
     }
 }
-
 
 h2{
     margin-left: auto;
