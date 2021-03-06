@@ -55,6 +55,16 @@ ul.blocklist {
     display:block;
     clear:both;
 }
+@media screen and (max-width: 979px){
+    .center_wrap {
+        width: 720px;
+    }
+    .right_wrap {
+        width: 230px; 
+        position: relative;
+        top: 20px;
+    }
+}
 @media screen and (min-width: 980px){
     .center_wrap {
         width: 720px;

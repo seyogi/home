@@ -53,19 +53,33 @@ P.lefttext {
     display:block;
     clear:both;
 }
-.center_wrap {
-    width: 720px;
-    float: left; /*左にフロート配置*/
+@media screen and (max-width: 979px){
+    .center_wrap {
+        width: 720px;
+    }
+    .right_wrap {
+        width: 230px; 
+        position: relative;
+        top: 20px;
+    }
 }
-.right_wrap {
-    width: 230px; 
-    height: 100%;
-    position: relative;
-    float: right; /*右にフロート配置*/
-    position: -webkit-sticky; 
-    position: sticky;
-    top: 20px;
+
+@media screen and (min-width: 980px){
+    .center_wrap {
+        width: 720px;
+        float: left; /*左にフロート配置*/
+    }
+    .right_wrap {
+        width: 230px; 
+        height: 100%;
+        position: relative;
+        float: right; /*右にフロート配置*/
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 20px;
+    }
 }
+
 
 h2{
     margin-left: auto;
