@@ -5,13 +5,6 @@
 body {
     background-color: #fffae6;
 }
-.black{
-    margin-left: auto;
-    margin-right: auto;
-    width: 750px;
-    color:#ffffff; 
-    background:#000000;
-}
 .title {
     position: relative;
     margin: 0 auto;
@@ -29,6 +22,19 @@ body {
     left: 10%;
     color: red;
     font-size: 200%;
+}
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    color:#ffffff; 
+    background:#000000;
+    text-align: center;
+    padding : 10px ;
+    line-height: 2em;
+    height: 60px;
+}
+ul.footer-menu li {
+    display: inline;
 }
 
 P.blocktext {
@@ -53,12 +59,10 @@ P.lefttext {
 }
 .center_wrap {
     width: 720px;
-    margin: auto;
     float: right; /*左にフロート配置*/
 }
 .left_wrap {
     width: 230px; /*左カラム幅設定*/
-    margin-left: 20px;
     float: left; /*左にフロート配置*/
 }
 
