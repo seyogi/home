@@ -30,16 +30,39 @@ body {
     color: red;
     font-size: 200%;
 }
+
 P.blocktext {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
 }
 P.lefttext {
-    margin-left: 50px;
+    margin-left: 20px;
     margin-right: auto;
     width: 700px;
 }
+
+.container {
+    width: 1000px; /*必要な幅に設定*/
+    margin: auto; /*ブラウザ中央に配置*/
+}
+.container:after { /*clearfix設定*/
+    content:"";
+    display:block;
+    clear:both;
+}
+.center_wrap {
+    width: 720px;
+    margin: auto;
+    float: right; /*左にフロート配置*/
+}
+.left_wrap {
+    width: 230px; /*左カラム幅設定*/
+    margin-left: 20px;
+    float: left; /*左にフロート配置*/
+}
+
+
 ul.blocklist {
     margin-left: auto;
     margin-right: auto;
