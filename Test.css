@@ -59,7 +59,7 @@ P.lefttext {
 }
 .left_wrap {
     width: 230px; 
-    height: 1000px;
+    height: 800px;
     position: relative;
     float: right; /*右にフロート配置*/
 }
