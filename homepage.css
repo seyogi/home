@@ -50,12 +50,12 @@ ul.blocklist {
     .container {
         margin-left: auto;
         margin-right: auto;
-        width: 720px;
+        width: 700px;
     }
     .center_wrap {
         margin-left: auto;
         margin-right: auto;
-        width: 700px;
+        width: 99%;
     }
     .right_wrap {
         width: 99%;
