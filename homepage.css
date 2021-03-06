@@ -48,8 +48,14 @@ ul.blocklist {
 
 @media screen and (max-width: 979px){
     .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
     }
     .center_wrap {
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
     }
     .right_wrap {
         width: 99%;
