@@ -6,34 +6,29 @@ body {
     background-color: #fffae6;
 }
 
-.title {
+header{
     position: relative;
-    margin: 0 auto;
-    width: 750px;
-    
-}
-.title img {
-    width: 750px;
+    margin: auto;
+    padding: 15px;
     height: 200px;
-    object-fit: cover;
-} 
-.title h1 {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    color: red;
-    font-size: 200%;
+    text-align: center;
+    background: url(https://seyogi.github.io/home/image/tyoukaizann.jpeg) center / cover;
+}
+header .headline{
+    color:#7c1515; 
+    font-size: 50px;
+    font-weight: bold; 
 }
 
 footer{
     margin-left: auto;
     margin-right: auto;
     color:#ffffff; 
-    background:#000000;
+    background:#000024;
     text-align: center;
     padding : 10px ;
     line-height: 2em;
-    height: 60px;
+    height: 80px;
 }
 ul.footer-menu li {
     display: inline;
@@ -44,11 +39,6 @@ P.blocktext {
     margin-right: auto;
     width: 700px;
 }
-P.lefttext {
-    margin-left: 50px;
-    margin-right: auto;
-    width: 700px;
-}
 ul.blocklist {
     margin-left: auto;
     margin-right: auto;
@@ -56,10 +46,30 @@ ul.blocklist {
     padding-left:50px;
 }
 
+.container {
+    width: 1000px; /*必要な幅に設定*/
+    margin: auto; /*ブラウザ中央に配置*/
+}
+.container:after { /*clearfix設定*/
+    content:"";
+    display:block;
+    clear:both;
+}
+.center_wrap {
+    width: 720px;
+    float: left; /*左にフロート配置*/
+}
+.left_wrap {
+    width: 230px; 
+    height: 1000px;
+    position: relative;
+    float: right; /*右にフロート配置*/
+}
+
 .sticky {
-    position: -webkit-sticky; /* safari対応 */
+    position: -webkit-sticky; 
     position: sticky;
-    top: 100px;
+    top: 20px;
 }
 
 h2{
@@ -75,18 +85,9 @@ h2{
 
 
 
-a:link {
-    color:#0000ff;
-}
-a:visited {
-    color:#00ccff;
-}
-a:hover {
-    color:#ffffff; 
-    background:#0000cc;
-}
-a:active {
 
-    color:#ffff00;
-}
+a:link {color:#0000ff;}
+a:visited {color:#00ddff;}
+a:hover {color:#ffffff; background:#0000cc;}
+a:active {color:#ffff00;}
 

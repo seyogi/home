@@ -5,33 +5,29 @@
 body {
     background-color: #fffae6;
 }
-.title {
+header{
     position: relative;
-    margin: 0 auto;
-    width: 750px;
-    
-}
-.title img {
-    width: 750px;
+    margin: auto;
+    padding: 15px;
     height: 200px;
-    object-fit: cover;
-} 
-.title h1 {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    color: red;
-    font-size: 200%;
+    text-align: center;
+    background: url(https://seyogi.github.io/home/image/tyoukaizann.jpeg) center / cover;
 }
+header .headline{
+    color:#7c1515; 
+    font-size: 50px;
+    font-weight: bold; 
+}
+
 footer{
     margin-left: auto;
     margin-right: auto;
     color:#ffffff; 
-    background:#000000;
+    background:#000024;
     text-align: center;
     padding : 10px ;
     line-height: 2em;
-    height: 60px;
+    height: 80px;
 }
 ul.footer-menu li {
     display: inline;
@@ -86,18 +82,8 @@ h2{
 
 
 
-a:link {
-    color:#0000ff;
-}
-a:visited {
-    color:#00ccff;
-}
-a:hover {
-    color:#ffffff; 
-    background:#0000cc;
-}
-a:active {
-
-    color:#ffff00;
-}
+a:link {color:#0000ff;}
+a:visited {color:#00ddff;}
+a:hover {color:#ffffff; background:#0000cc;}
+a:active {color:#ffff00;}
 
