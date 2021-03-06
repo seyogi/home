@@ -90,7 +90,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    padding: 0.4em ;/*文字の上下 左右の余白*/
+    padding: 0.4em 0;/*文字の上下 左右の余白*/
     color: #494949;/*文字色*/
     background: #f4f4f4;/*背景色*/
     border-left: solid 5px #7db4e6;/*左線*/
