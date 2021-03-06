@@ -59,14 +59,11 @@ ul.blocklist {
     width: 720px;
     float: left; /*左にフロート配置*/
 }
-.left_wrap {
+.right_wrap {
     width: 230px; 
-    height: 800px;
+    height: 100%;
     position: relative;
     float: right; /*右にフロート配置*/
-}
-
-.sticky {
     position: -webkit-sticky; 
     position: sticky;
     top: 20px;
