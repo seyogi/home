@@ -46,16 +46,10 @@ ul.blocklist {
     padding-left:50px;
 }
 
-.container {
-    width: 1000px; /*必要な幅に設定*/
-    margin: auto; /*ブラウザ中央に配置*/
-}
-.container:after { /*clearfix設定*/
-    content:"";
-    display:block;
-    clear:both;
-}
 @media screen and (max-width: 979px){
+    .container {
+        width: 100%; 
+    }
     .center_wrap {
         width: 99%;
         margin-left: auto;
@@ -69,6 +63,15 @@ ul.blocklist {
     }
 }
 @media screen and (min-width: 980px){
+    .container {
+        width: 1000px; /*必要な幅に設定*/
+        margin: auto; /*ブラウザ中央に配置*/
+    }
+    .container:after { /*clearfix設定*/
+        content:"";
+        display:block;
+        clear:both;
+    }
     .center_wrap {
         width: 720px;
         float: left; /*左にフロート配置*/
