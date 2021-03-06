@@ -61,6 +61,8 @@ P.lefttext {
         width: 230px; 
         position: relative;
         top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
