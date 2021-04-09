@@ -61,6 +61,7 @@ ul.blocklist {
         display:none ;
     }
 }
+
 @media screen and (min-width: 980px){
     .container {
         width: 1000px; /*必要な幅に設定*/
