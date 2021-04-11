@@ -38,12 +38,14 @@ P.blocktext {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
+    line-height: 30px;
 }
 ul.blocklist {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
     padding-left:50px;
+    line-height: 25px;
 }
 
 @media screen and (max-width: 979px){
@@ -113,6 +115,7 @@ ul.blocklist {
 .tab-content {
     width: 100%;
     display: none;
+    line-height: 30px;
 }
 /* アクティブなタブ */
 .tab-switch:checked+.tab-label {
