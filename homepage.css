@@ -62,6 +62,7 @@ ul.blocklist {
     }
     .right_wrap {
         display:none ;
+        width: 0%;
     }
 }
 
