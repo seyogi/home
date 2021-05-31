@@ -59,7 +59,7 @@ ul.blocklist {
     .center_wrap {
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
     .right_wrap {
         display:none ;
@@ -69,7 +69,7 @@ ul.blocklist {
 
 @media screen and (min-width: 980px){
     .container {
-        width: 1000px; /*必要な幅に設定*/
+        max-width: 1000px; /*必要な幅に設定*/
         margin: auto; /*ブラウザ中央に配置*/
     }
     .container:after { /*clearfix設定*/
